@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, MapPin, Phone, Mail, Star, Wifi, Coffee, Shirt, Check, Quote, ArrowUp } from 'lucide-react';
+import { MapPin, Phone, Mail, Star, Wifi, Coffee, Shirt, Check, Quote, ArrowUp } from 'lucide-react';
 
 const App = () => {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -354,8 +354,8 @@ const App = () => {
               © 2024 Iris Lux Hotel. Все права защищены.
             </p>
             <div className="flex items-center justify-center space-x-6 text-sm">
-              <a href="#" className="hover:text-accent transition-colors">Политика конфиденциальности</a>
-              <a href="#" className="hover:text-accent transition-colors">Условия бронирования</a>
+              <button className="hover:text-accent transition-colors">Политика конфиденциальности</button>
+              <button className="hover:text-accent transition-colors">Условия бронирования</button>
             </div>
           </div>
         </div>
